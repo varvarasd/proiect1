@@ -3,20 +3,23 @@ extends _layouts/base
 include _modules/link/link
 
 block content
-  body
-    h1(style='font-family: monospace; font-size: 30px; color:red; text-align: center') The prossecco terrorizing critter!
-    p(style='font-family: verdana; text-align: center') Welcome to my #[strong jade] experience
+  body.browsehappy
+    h1 The prossecco terrorizing critter!
+    p Welcome to my #[strong jade] experience 
         br
-    p(style='text-align: center')
+    #div1 Booyakasha
+        br
+    #div1
         |#[strong Testing] the #[a(href='www.prosecco.com') link] with prosecco critter 
         br
-        img(src="drunk.jpg" alt="esti tampit")
+    img(src="drunk.jpg" alt="Nu merge domne")
+    #div2
         br
         button Likescovici
         button Infoscovici
         button Deletescovici
         br
-        form(style='text-align:center')
+        form
             input(type='radio' checked)
             |Human
             br
@@ -24,5 +27,3 @@ block content
             |Animal
             br
             input(type='text', placeholder='Squirrel')
-
-    include _layouts/footer
