@@ -3,7 +3,7 @@ extends _layouts/base
 include _modules/link/link
 
 block content
-  body.browsehappy
+    body.browsehappy
     h1 The prossecco terrorizing critter!
     p Welcome to my #[strong jade] experience 
         br
@@ -12,7 +12,7 @@ block content
     #div1
         |#[strong Testing] the #[a(href='www.prosecco.com') link] with prosecco critter 
         br
-    img(src="drunk.jpg" alt="Nu merge domne")
+    img(src="/drunk.jpg" alt="Nu merge domne")
     #div2
         br
         button Likescovici
@@ -27,3 +27,6 @@ block content
             |Animal
             br
             input(type='text', placeholder='Squirrel')
+            br
+            br
+    include ./_layouts/footer.jade
