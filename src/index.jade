@@ -3,23 +3,26 @@ extends _layouts/base
 include _modules/link/link
 
 block content
-  body(style='text-align: center')
-    h1(style='font-family: monospace; font-size: 30px; color:red') The prossecco terrorizing critter!
-    p(style='font-family: verdana') Welcome to my #[strong jade] experience
-    br
-    |#[strong Testing] the #[a(href='www.prosecco.com') link] with prosecco critter 
-    br
-    img(src="drunk.jpg" alt="esti tampit")
-    br
-    button Likescovici
-    button Infoscovici
-    button Deletescovici
-    br
-    form
-        input(type='radio' checked)
-        |Om
+  body
+    h1(style='font-family: monospace; font-size: 30px; color:red; text-align: center') The prossecco terrorizing critter!
+    p(style='font-family: verdana; text-align: center') Welcome to my #[strong jade] experience
         br
-        input(type='checkbox')
-        |Animal
+    p(style='text-align: center')
+        |#[strong Testing] the #[a(href='www.prosecco.com') link] with prosecco critter 
         br
-        input(type='text', placeholder='Veverita')
+        img(src="drunk.jpg" alt="esti tampit")
+        br
+        button Likescovici
+        button Infoscovici
+        button Deletescovici
+        br
+        form(style='text-align:center')
+            input(type='radio' checked)
+            |Human
+            br
+            input(type='checkbox')
+            |Animal
+            br
+            input(type='text', placeholder='Squirrel')
+
+    include _layouts/footer
