@@ -6,13 +6,42 @@ include _modules/link/link
 block content
 
 	.container-fluid
-		.row
+		.row#row1
 			.col-xs-4 
 					img.img-responsive.euimage(src='images/eu.jpg', alt='Profile picture')
-					p Silviu Daniel Varvara
+					h2 Silviu Daniel Varvara
 			.col-xs-8
 				h1.logo
 					img.img-responsive(src='images/topimage.jpg', alt='Background image', width='100%')
 
 					p(style='background-color: #000') Technology is nature
-		
+	.row#row2
+	ul.nav1#myNav1
+		li 
+			a(href='#home') Home
+		li
+			a(href='#photos') Photos
+		li
+			a(href='#projects') Projects
+		li
+			a(href='#social') Social
+
+	.row#row3(style='border: solid 2px')
+		ul
+			li Contact
+				ul
+					li Telephone
+					li Email
+					li Address
+			li Education
+				ul
+					li Online course
+					li Online course
+					li Online course
+					li College
+					li GCSE's
+			li Portfolio
+				ul
+					li Link
+					li Link
+					li Link
