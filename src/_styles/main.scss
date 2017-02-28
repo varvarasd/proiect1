@@ -30,7 +30,15 @@
 }
 
 .logo {
-  margin-top: 15px;
+  margin: center;
+  padding: 5px;
+  border-color: gray;
+  border-style: none;
+  font-family: monospace, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: gray;
+  width: 100%, url(/images/topimage.jpg);
 }
 
 // Styling on warning for users on IE7 or below
@@ -41,3 +49,28 @@
   color: #000;
   padding: 0.5em 0;
 }
+
+.euimage {
+  text-align: left;
+  border-color: #000;
+  border-style: solid 10px;
+  border-radius: 10%;
+  padding: 10px;
+  padding-left: 10px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.container-fluid {
+  background: url(/images/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.col-xs-4 {
+  font-family: verdana;
+  color: white;
+  font-size: 20px;
+}
+
+

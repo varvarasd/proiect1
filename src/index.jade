@@ -2,37 +2,17 @@ extends _layouts/base
 
 include _modules/link/link
 
+
 block content
-    body.browsehappy
-    h1 The prossecco terrorizing critter!
-    p Welcome to my #[strong jade] experience 
-        br
-    #div1 Booyakasha
-        br
-    #div1
-        |#[strong Testing] the #[a(href='www.prosecco.com') link] with prosecco critter 
-        br
-    img(src="/drunk.jpg" alt="Nu merge domne")
-    #div2
-        br
-        button Likescovici
-        button Infoscovici
-        button Deletescovici
-        br
-        form
-            input(type='radio' checked)
-            |Human
-            br
-            input(type='checkbox')
-            |Animal
-            br
-            input(type='text', placeholder='Squirrel')
-            br
-            br
-    .list(style='text-align: left')
-    mixin ciupapciciList
-        ol(style='text-align: left')
-            li Mici
-            li Carnatz
-            li Cabanosh
-    +ciupapciciList
+
+	.container-fluid
+		.row
+			.col-xs-4 
+					img.img-responsive.euimage(src='images/eu.jpg', alt='Profile picture')
+					p Silviu Daniel Varvara
+			.col-xs-8
+				h1.logo
+					img.img-responsive(src='images/topimage.jpg', alt='Background image', width='100%')
+
+					p(style='background-color: #000') Technology is nature
+		
