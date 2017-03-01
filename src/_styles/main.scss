@@ -18,19 +18,21 @@ ul.nav1 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #444;
+  background-color: #37CF63;
 }
 ul.nav1 li {float:left;}
 
 ul.nav1 li a {
   display: inline-block;
-  color: #f2f2f2;
+  color: #045B1D;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
-ul.nav1 li a:hover {background-color:#555;}
+ul.nav1 li a:hover {
+  background-color:#A2D677;
+}
 
 
 .yeogurt-info {
@@ -91,4 +93,44 @@ ul.nav1 li a:hover {background-color:#555;}
   font-size: 20px;
 }
 
+.leftc#pdetails {
+  float: left;
+  width: 20%;
+  background-color: #E5FED1;
+  padding: 10px;
+  padding-top: 27px;
+  text-align: left;
+  max-height: 100%;
+  min-height: 927px;
+}
 
+#panel1 {
+  float: right;
+  width: 80%;
+  position: auto;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.panel-header {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.panel-head {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+.panel {
+  background-color: #BDF98A;
+  border-color: #37CF63;
+  border-radius: 0;
+}
+.rightc {
+  background-color: #E5FED1;
+  font-family: times;
+}
