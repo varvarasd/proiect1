@@ -13,6 +13,9 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+body {
+  font-family: monospace;
+}
 ul.nav1 {
   list-style-type: none;
   margin: 0;
@@ -28,10 +31,12 @@ ul.nav1 li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
+  border-style: outset;
+  border-color: green;
 }
 ul.nav1 li a:hover {
-  background-color:#A2D677;
+  background-color: #BDF98A;
 }
 
 
@@ -82,14 +87,13 @@ ul.nav1 li a:hover {
 }
 
 .container-fluid {
-  background: url(/images/background1.jpg);
-  background-repeat: no-repeat;
+  background-image: url('/images/background1.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
+  background-repeat: repeat-x;
 }
 .col-xs-4 {
   font-family: verdana;
-  color: white;
   font-size: 20px;
 }
 
@@ -100,8 +104,7 @@ ul.nav1 li a:hover {
   padding: 10px;
   padding-top: 10px;
   text-align: left;
-  max-height: 100%;
-  min-height: 927px;
+  max-height: 927px;
 }
 
 #panel1 {
